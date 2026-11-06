@@ -89,7 +89,7 @@ public class Main extends Application {
 				statusLabel.setText("Make sure no fields are empty.");
 				
 			}else {
-				statusLabel.setText("Registration accepted.");
+				statusLabel.setText("Registration accepted for " + fullName);
 			}
 		});
 		
